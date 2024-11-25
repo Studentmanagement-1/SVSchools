@@ -9,4 +9,7 @@ public class StudentService {
         return "hello";
     }
 
+    public String greetings2(){
+        return "how are you";
+    }
 }
