@@ -14,8 +14,4 @@ public class StudentService {
         System.out.println("Thanks namasthe");
         return "how are you";
     }
-    public String greetings4(){
-        System.out.println("Thanks namasthe");
-        return "how are you";
-    }
 }
