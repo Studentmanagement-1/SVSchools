@@ -14,15 +14,13 @@ public class StudentController {
 
     @GetMapping("/greet")
     public String greetings(){
-        System.out.println("morning");
-        System.out.println("morning");
+        System.out.println("hello");
         return service.greetings();
     }
 
     @GetMapping("/greet2")
     public String greetings2(){
-         System.out.println("morning");
-        System.out.println("morning");
+        System.out.println("hello");
         return "Good Morning";
     }
 
