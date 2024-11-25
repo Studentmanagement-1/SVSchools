@@ -6,12 +6,12 @@ import org.springframework.stereotype.Service;
 public class StudentService {
 
     public String greetings(){
-        System.out.println("welcome");
+      System.out.println("Thanks namasthe");
         return "hello";
     }
 
     public String greetings2(){
-        System.out.println("welcome");
+        System.out.println("Thanks namasthe");
         return "how are you";
     }
 }
