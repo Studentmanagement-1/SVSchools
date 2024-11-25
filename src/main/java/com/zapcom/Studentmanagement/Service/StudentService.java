@@ -24,6 +24,10 @@ public class StudentService {
         System.out.println("good morning");
         return "how are you";
     }
+    public String greetings5(){
+        System.out.println("good morning");
+        return "how are you";
+    }
 
 
 }
