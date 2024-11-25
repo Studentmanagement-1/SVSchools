@@ -17,4 +17,9 @@ public class StudentController {
         return service.greetings();
     }
 
+    @GetMapping("/greet2")
+    public String greetings2(){
+        return "Good Morning";
+    }
+
 }
