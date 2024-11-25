@@ -14,8 +14,8 @@ public class StudentController {
 
     @GetMapping("/greet")
     public String greetings(){
-        System.out.println("hi");
-        System.out.println("hi");
+        System.out.println("hello");
+        System.out.println("hello");
         return service.greetings();
     }
 
