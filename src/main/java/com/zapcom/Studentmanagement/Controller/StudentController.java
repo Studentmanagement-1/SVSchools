@@ -37,5 +37,11 @@ public class StudentController {
         System.out.println("namasthe16");
         return "Good Morning";
     }
+    @GetMapping("/greet7")
+    public String greetings7(){
+        System.out.println("namasthe36");
+        System.out.println("namasthe36");
+        return "Good Morning";
+    }
 
 }
