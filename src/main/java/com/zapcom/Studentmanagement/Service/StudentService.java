@@ -18,4 +18,8 @@ public class StudentService {
         System.out.println("Thanks namasthe");
         return "how are you";
     }
+    public String greetings5(){
+        System.out.println("Thanks namasthe5");
+        return "how are you";
+    }
 }
