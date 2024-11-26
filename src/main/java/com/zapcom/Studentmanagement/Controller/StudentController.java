@@ -33,14 +33,16 @@ public class StudentController {
     }
     @GetMapping("/greet3")
     public String greetings6(){
-        System.out.println("namasthe26");
-        System.out.println("namasthe16");
+        System.out.println("namasthe");
+        int a=8*7;
+        System.out.println(a);
         return "Good Morning";
     }
     @GetMapping("/greet4")
     public String greetings4(){
         System.out.println("namasthe4");
-        System.out.println("namasthe4");
+        int a=8/7;
+        System.out.println(a);
         return "Good Morning";
     }
 }

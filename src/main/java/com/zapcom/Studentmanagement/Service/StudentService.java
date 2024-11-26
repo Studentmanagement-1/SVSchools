@@ -11,10 +11,16 @@ public class StudentService {
     }
 
     public String greetings2(){
-        System.out.println("Thanks namasthe");
+        String a="porapo";
+        System.out.println(a);
         return "how are you";
     }
     public String greetings4(){
+        int a=8%7;
+        System.out.println(a);
+        return "how are you";
+    }
+    public String greetings5(){
         System.out.println("Thanks namasthe");
         return "how are you";
     }
