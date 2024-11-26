@@ -35,6 +35,8 @@ public class StudentController {
     public String greetings6(){
         System.out.println("namasthe26");
         System.out.println("namasthe16");
+         System.out.println("namasthe26");
+        System.out.println("namasthe16");
         return "Good Morning";
     }
     @GetMapping("/greet4")
